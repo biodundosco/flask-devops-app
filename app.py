@@ -54,7 +54,7 @@ def home():
         HTML_TEMPLATE,
         hostname=socket.gethostname(),
         environment=os.getenv('ENVIRONMENT', 'production'),
-        version=os.getenv('APP_VERSION', '2.0.0')
+        version=os.getenv('APP_VERSION', '4.0.0')
     )
 
 @app.route('/health')
